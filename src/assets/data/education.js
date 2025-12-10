@@ -1,9 +1,10 @@
 export const education = [
   {
-    name: "Ağrı 15 Temmuz Şehitleri Anatolian High School",
+    name: "AcunMedya Akademi Full Stack Bootcamp Participant"
+    ,
     degree: "",
-    startDate: "2016",
-    endDate: "2020",
+    startDate: "01.2025",
+    endDate: "06.2025",
     completed: true,
   },
   {
