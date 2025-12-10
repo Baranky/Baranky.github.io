@@ -1,5 +1,6 @@
 import React from "react";
 import AchievementComponent from "../AchievementComponent/AchievementComponent";
+import ArticleComponent from "../ArticleComponent/ArticleComponent";
 import EducationComponent from "../EducationComponent/EducationComponent";
 import ExperienceComponent from "../ExperienceComponent/ExperienceComponent";
 import ProjectComponent from "../ProjectComponent/ProjectComponent";
@@ -18,6 +19,7 @@ const ResumeBody = () => {
         <EducationComponent/>
         {/* <AchievementComponent /> */}
         <VolunteerWork />
+        <ArticleComponent />
         <ProjectComponent />
       </div>
     </div>

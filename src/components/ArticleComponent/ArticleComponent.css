@@ -1,0 +1,29 @@
+.article-component__root {
+  user-select: none;
+  margin-top: 7vh;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  width: 100%;
+}
+
+.article-component__articles {
+  margin-top: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 850px) {
+  .article-component__root {
+    user-select: none;
+    margin-top: 7vh;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 0px;
+  }
+}
+
