@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.af6c0c30.css",
-    "main.js": "/static/js/main.1ad0b65c.js",
+    "main.js": "/static/js/main.daf9e8c3.js",
     "static/js/787.7c4fc8d6.chunk.js": "/static/js/787.7c4fc8d6.chunk.js",
     "static/media/me.png": "/static/media/me.d50a1c5b06c53cb5f949.png",
     "static/media/software-engineering.jpg": "/static/media/software-engineering.496fe27b73f7da22d5f9.jpg",
     "index.html": "/index.html",
     "main.af6c0c30.css.map": "/static/css/main.af6c0c30.css.map",
-    "main.1ad0b65c.js.map": "/static/js/main.1ad0b65c.js.map",
+    "main.daf9e8c3.js.map": "/static/js/main.daf9e8c3.js.map",
     "787.7c4fc8d6.chunk.js.map": "/static/js/787.7c4fc8d6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af6c0c30.css",
-    "static/js/main.1ad0b65c.js"
+    "static/js/main.daf9e8c3.js"
   ]
 }
