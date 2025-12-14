@@ -73,3 +73,17 @@
     font-family: "Nunito", sans-serif;
   }
 }
+
+@media (max-width: 480px) {
+  .see-more__root {
+    bottom: 3vh;
+  }
+  .see-more__icon {
+    width: 40px;
+    height: 40px;
+  }
+  .see-more__icon svg {
+    width: 24px;
+    height: 24px;
+  }
+}

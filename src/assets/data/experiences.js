@@ -1,7 +1,7 @@
 export const experiences = [
  
   {
-    title: "Intern Software Engineer",
+    title: "-Intern Software Engineer",
     company: "Jforce Bilişim Teknoloji",
     location: "Turkey",
     jobDescription:
@@ -10,8 +10,8 @@ export const experiences = [
     endDate: "09/2024",
   },
   {
-    title: " Intern Full Stack (Java & React) Developer",
-    company: "AcunMedya Akademi",
+    title: "-Intern Full Stack (Java & React) Developer",
+    company: "Acunmedya Akademi ",
     location: "Turkey",
     jobDescription:
       "Java Spring Boot ve React.js teknolojilerini kullanarak full stack web uygulamaları geliştirdim. Backend tarafında REST API’ler oluşturarak veri akışını yönetirken PostgreSQL üzerinde sorgu optimizasyonları gerçekleştirdim. Frontend tarafında dinamik ve kullanıcı dostu arayüzler tasarlayıp backend servisleriyle entegre çalışmasını sağladım. Ayrıca takım içinde agile yöntemleri benimseyerek kod kalitesini ve geliştirme hızını artırmaya katkıda bulundum.",

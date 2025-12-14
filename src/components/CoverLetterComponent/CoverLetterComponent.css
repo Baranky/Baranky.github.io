@@ -49,3 +49,23 @@
     width: 90%;
   }
 }
+
+@media (max-width: 480px) {
+  .cover-letter-component__root {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .cover-letter-component__name {
+    font-size: 1.4rem;
+  }
+
+  .cover-letter-component__title {
+    font-size: 1rem;
+  }
+
+  .cover-letter-component__content {
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+}

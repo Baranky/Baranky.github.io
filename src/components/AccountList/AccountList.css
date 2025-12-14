@@ -66,3 +66,26 @@
     padding: 12px;
   }
 }
+
+@media (max-width: 480px) {
+  .account-list__root {
+    bottom: 8vh;
+    gap: 12px;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    justify-content: center;
+    width: auto;
+    padding: 0 10px;
+  }
+  .account-list__item {
+    padding: 10px;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .account-list__item svg {
+    width: 24px;
+    height: 24px;
+  }
+}

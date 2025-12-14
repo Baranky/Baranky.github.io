@@ -14,7 +14,10 @@ const ProjectItem = (props) => {
     <div className="tooltip">
       <div
         className="project-item__root"
-        onClick={() => openInNewTab(projectLink)}
+        onClick={(e) => {
+          e.stopPropagation();
+          openInNewTab(projectLink);
+        }}
       >
         <span className="project-item__name">{projectName}</span>
         <div className="project-item__image__wrapper ">

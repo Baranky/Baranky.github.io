@@ -11,7 +11,9 @@ import "./ResumeBody.css";
 const ResumeBody = () => {
   return (
     <div className="resume-body__root">
-      <ResumeInfo />
+      <div className="resume-body__about">
+        <ResumeInfo />
+      </div>
       <div className="resume-body__right">
         <TechStackComponent />
         <ExperienceComponent />

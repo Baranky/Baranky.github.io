@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import "./ProjectComponent.css";
 import { projects } from "../../assets/data/projects";
 import ProjectItem from "../ProjectItem/ProjectItem";
@@ -7,7 +7,21 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const ProjectComponent = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 4;
+  const [itemsPerPage, setItemsPerPage] = useState(4);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 480) {
+        setItemsPerPage(2);
+      } else {
+        setItemsPerPage(4);
+      }
+    };
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const totalPages = Math.ceil(projects.length / itemsPerPage);
 
@@ -15,9 +29,19 @@ const ProjectComponent = () => {
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
     return projects.slice(startIndex, endIndex);
-  }, [currentPage]);
+  }, [currentPage, itemsPerPage]);
 
-  const handlePageChange = (page) => {
+  useEffect(() => {
+    // Reset to first page when itemsPerPage changes
+    setCurrentPage(1);
+  }, [itemsPerPage]);
+
+  const handlePageChange = (page, event) => {
+    if (event) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+    
     if (page >= 1 && page <= totalPages) {
       setCurrentPage(page);
       // Scroll to projects section with offset for menu
@@ -25,8 +49,11 @@ const ProjectComponent = () => {
         const projectsSection = document.getElementById("projects");
         if (projectsSection) {
           const yOffset = -100; // Offset for any fixed headers
-          const y = projectsSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
-          window.scrollTo({ top: y, behavior: "smooth" });
+          const elementTop = projectsSection.getBoundingClientRect().top;
+          const offsetTop = window.pageYOffset || document.documentElement.scrollTop;
+          const y = elementTop + offsetTop + yOffset;
+          const scrollPosition = Math.max(0, Math.min(y, document.documentElement.scrollHeight - window.innerHeight));
+          window.scrollTo({ top: scrollPosition, behavior: "smooth" });
         }
       }, 100);
     }
@@ -42,11 +69,12 @@ const ProjectComponent = () => {
       </div>
       
       {totalPages > 1 && (
-        <div className="project-component__pagination">
+        <div className="project-component__pagination" onClick={(e) => e.stopPropagation()}>
           <button
             className={`project-component__pagination-btn ${currentPage === 1 ? "disabled" : ""}`}
-            onClick={() => handlePageChange(currentPage - 1)}
+            onClick={(e) => handlePageChange(currentPage - 1, e)}
             disabled={currentPage === 1}
+            type="button"
           >
             <FaChevronLeft />
           </button>
@@ -55,7 +83,8 @@ const ProjectComponent = () => {
             <button
               key={page}
               className={`project-component__pagination-btn ${currentPage === page ? "active" : ""}`}
-              onClick={() => handlePageChange(page)}
+              onClick={(e) => handlePageChange(page, e)}
+              type="button"
             >
               {page}
             </button>
@@ -63,8 +92,9 @@ const ProjectComponent = () => {
           
           <button
             className={`project-component__pagination-btn ${currentPage === totalPages ? "disabled" : ""}`}
-            onClick={() => handlePageChange(currentPage + 1)}
+            onClick={(e) => handlePageChange(currentPage + 1, e)}
             disabled={currentPage === totalPages}
+            type="button"
           >
             <FaChevronRight />
           </button>

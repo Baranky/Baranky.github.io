@@ -18,7 +18,7 @@ const SidebarMenu = () => {
     { name: "About", to: "resume-view", offset: -70 },
     { name: "Projects", to: "projects", offset: -70 },
     { name: "Articles", to: "articles", offset: -70 },
-    { name: "Contact", to: "landing-page", offset: 0 },
+    { name: "Contact", to: "about", offset: -100 },
   ];
 
   return (

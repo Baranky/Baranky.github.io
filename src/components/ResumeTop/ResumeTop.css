@@ -68,3 +68,16 @@
     text-align: center;
   }
 }
+
+@media (max-width: 480px) {
+  .resume-top__root {
+    margin-top: 5vh;
+  }
+  .resume-top__image {
+    width: 60%;
+    margin-bottom: 30px;
+  }
+  .resume-top__image__wrapper {
+    width: 100%;
+  }
+}
