@@ -1,0 +1,150 @@
+.sidebar-menu__toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 10000;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar-menu__toggle:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar-menu__overlay {
+  display: none;
+}
+
+.sidebar-menu__root {
+  position: fixed;
+  top: -200px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 200px;
+  background: rgba(30, 30, 30, 0.3);
+  backdrop-filter: blur(15px);
+  z-index: 9999;
+  transition: top 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-menu__root.open {
+  top: 0;
+}
+
+.sidebar-menu__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-menu__title {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+
+.sidebar-menu__close {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.sidebar-menu__close:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: rotate(90deg);
+}
+
+.sidebar-menu__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  flex: 1;
+  gap: 30px;
+}
+
+.sidebar-menu__item {
+  padding: 15px 30px;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-bottom: 3px solid transparent;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.sidebar-menu__item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-bottom-color: #667eea;
+  color: #e0e7ff;
+  transform: translateY(-3px);
+}
+
+.sidebar-menu__item:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 850px) {
+  .sidebar-menu__root {
+    height: 180px;
+    top: -180px;
+  }
+  
+  .sidebar-menu__toggle {
+    width: 55px;
+    height: 55px;
+    top: 15px;
+    right: 15px;
+  }
+  
+  .sidebar-menu__title {
+    font-size: 1.5rem;
+  }
+  
+  .sidebar-menu__nav {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .sidebar-menu__item {
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+}
+

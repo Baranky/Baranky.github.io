@@ -6,11 +6,12 @@ const CoverLetterComponent = () => {
     <div className="cover-letter-component__root">
       <span className="cover-letter-component__name">Baran Kaya</span>
       <span className="cover-letter-component__title">
-        ~ Java Backend Developer
+      Java Developer | software Developer
       </span>
       <span className="cover-letter-component__content">
-      Yazılım geliştirme alanında deneyimli, problem çözmeye tutkuyla bağlı bir geliştiriciyim. Yeni teknolojilere hızla uyum sağlayabilen, takım çalışmasına yatkın ve sürekli kendimi geliştirmeyi hedefleyen bir yapıya sahibim. Katkı sunabileceğim, aynı zamanda profesyonel olarak büyümeme imkân tanıyacak zorlu ve etkili projelerde yer almayı amaçlıyorum.      </span>
-    </div>
+        Java ve Spring Boot kullanarak dağıtık sistemler geliştirme, RabbitMQ, Redis ve Docker gibi teknolojilerle ölçeklenebilir sistemler kurma ve mikroservis entegrasyonu ile CI/CD süreçlerinde uzmanlık kazanma konusunda deneyimli bir Yazılım Geliştiricisiyim.  
+      </span> 
+     </div>
   );
 };
 

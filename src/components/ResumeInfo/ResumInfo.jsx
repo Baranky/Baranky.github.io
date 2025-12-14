@@ -4,9 +4,12 @@ import "./ResumeInfo.css";
 const ResumeInfo = () => {
   const attributes = [
     { name: "Email", value: "baranky2104@gmail.com" },
-    { name: "Address", value: "Turkey,İstanbul" },
+    { name: "Phone ", value: "+90 533 198 2104" },
+
+    { name: "Address", value: "İstanbul / Turkey" },
     { name: "Date of Birth", value: "2002" },
-    { name: "Languages", value: "Turkish\nEnglish" },
+    { name: "Languages", value: "Turkish(Native)\nEnglish(Intermediate)" },
+    { name: "\n\nReferences", value: "Hakan Anlamaz\nJforce Team Leader hakan.anlamaz@jforce.com \n+90 543 734 1299" },
   ];
 
   return (

@@ -1,10 +1,15 @@
 .see-more__root {
-  margin-top: 5vh;
+  position: absolute;
+  bottom: 8vh;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 20px;
+  z-index: 998;
+  animation: fadeInUp 1.5s ease-out 0.5s both;
 }
 
 .see-more__text {
@@ -12,20 +17,32 @@
   font-weight: 300;
   font-size: 1.2rem;
   font-family: "Nunito", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .see-more__icon {
   cursor: pointer;
-  color: #2c2c2c;
-  transition: all 0.2s ease-in-out;
+  color: white;
+  transition: all 0.3s ease-in-out;
   border-radius: 50%;
   padding: 5px;
-  animation: ripple 3s linear infinite;
+  animation: ripple 3s linear infinite, bounce 2s ease-in-out infinite;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
 }
 
 .see-more__icon:hover {
-  color: #1d1d1d;
-  transform: scale(1.2);
+  color: rgba(255, 255, 255, 0.9);
+  transform: scale(1.2) translateY(5px);
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 @keyframes ripple {
@@ -43,12 +60,10 @@
 
 @media (max-width: 850px) {
   .see-more__root {
-    margin-top: 3vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+    position: absolute;
+    bottom: 6vh;
+    left: 50%;
+    transform: translateX(-50%);
   }
   
   .see-more__text {
@@ -57,5 +72,4 @@
     font-size: 1.0rem;
     font-family: "Nunito", sans-serif;
   }
-  
 }

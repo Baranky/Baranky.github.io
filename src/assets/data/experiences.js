@@ -1,7 +1,7 @@
 export const experiences = [
  
   {
-    title: "Intern",
+    title: "Intern Software Engineer",
     company: "Jforce Bilişim Teknoloji",
     location: "Turkey",
     jobDescription:
@@ -10,7 +10,7 @@ export const experiences = [
     endDate: "09/2024",
   },
   {
-    title: " Full Stack (Java & React) Stajyeri",
+    title: " Intern Full Stack (Java & React) Developer",
     company: "AcunMedya Akademi",
     location: "Turkey",
     jobDescription:

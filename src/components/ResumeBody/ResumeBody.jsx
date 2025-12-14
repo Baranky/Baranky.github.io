@@ -6,7 +6,6 @@ import ExperienceComponent from "../ExperienceComponent/ExperienceComponent";
 import ProjectComponent from "../ProjectComponent/ProjectComponent";
 import ResumeInfo from "../ResumeInfo/ResumInfo";
 import TechStackComponent from "../TechStackComponent/TechStackComponent";
-import VolunteerWork from "../VolunteerWork/VolunteerWork";
 import "./ResumeBody.css";
 
 const ResumeBody = () => {
@@ -18,9 +17,8 @@ const ResumeBody = () => {
         <ExperienceComponent />
         <EducationComponent/>
         {/* <AchievementComponent /> */}
-        <VolunteerWork />
-        <ArticleComponent />
         <ProjectComponent />
+        <ArticleComponent />
       </div>
     </div>
   );

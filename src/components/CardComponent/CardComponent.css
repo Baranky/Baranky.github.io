@@ -13,13 +13,13 @@
 }
 
 .card-component__item:hover {
-  background-color: #07a780;
+  background-color: #667eea;
   color: white;
   transform: scale(1.05);
 }
 
 .card-component__item__present {
-  background: #07a780;
+  background: #667eea;
   color: #fff;
   border-radius: 20px;
   padding: 20px;

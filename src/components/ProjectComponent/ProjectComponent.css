@@ -9,7 +9,7 @@
     font-family: "Nunito";
     font-size: 2.2rem;
     font-weight: 700;
-    color: #07a780;
+    color: #667eea;
     display: flex;
     flex-grow: 1;
     flex-direction: row;
@@ -23,8 +23,8 @@
     margin-right: 5%;
     width: 70%;
     height: 2px;
-    background: #07a780;
-    border: 2px solid #07a780;
+    background: #667eea;
+    border: 2px solid #667eea;
     border-radius: 5px;
   }
   
@@ -38,6 +38,56 @@
     flex-wrap: wrap;
   }
   
+  .project-component__pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .project-component__pagination-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+  }
+
+  .project-component__pagination-btn:hover:not(.disabled) {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.5);
+  }
+
+  .project-component__pagination-btn.active {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.6);
+  }
+
+  .project-component__pagination-btn.disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    background: #ccc;
+  }
+
+  .project-component__pagination-btn.disabled:hover {
+    transform: none;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+  }
+
   @media (max-width: 850px) {
     .project-component__root {
       user-select: none;
@@ -46,6 +96,18 @@
       width: 80%;
       margin-left: 5%;
       margin-right: 0px;
+    }
+
+    .project-component__pagination {
+      margin-top: 40px;
+      margin-bottom: 30px;
+      gap: 8px;
+    }
+
+    .project-component__pagination-btn {
+      width: 40px;
+      height: 40px;
+      font-size: 0.9rem;
     }
   }
   

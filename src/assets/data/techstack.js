@@ -9,20 +9,22 @@ export const techStack = [
     name: "Microservices",
   },
   {
+    name: "PostgreSQL",
+  },
+  {
+    name: "Docker",
+  },
+  {
     name: "Jenkins",
   },
   {
     name: "MySQL",
   },
-  {
-    name: "PostgreSQL",
-  },
+  
   {
     name: "Git",
   },
-  {
-    name: "Docker",
-  },
+  
   {
     name: "RabbitMQ",
   },

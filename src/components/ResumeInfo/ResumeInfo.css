@@ -3,19 +3,20 @@
   margin-top: 70px;
   margin-left: 1%;
   color: white;
-  background: #07a780;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border-radius: 25px;
   width: 40%;
   height: max-content;
   padding-top: 50px;
   padding-bottom: 50px;
-
-  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .resume-info__root:hover {
-  /* color: #07a780; */
-  background: #454545;
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
 .resume-info__title {
