@@ -5,7 +5,7 @@ export const experiences = [
     company: "Quantumix",
     location: "Turkey",
     jobDescription:
-      " Java ve Spring Boot ile geliştirdiğim backend uygulamasında, ölçeklenebilir ve sağlam bir yapı kurmaya odaklandım. Güvenli ve hızlı RESTful API’ler tasarladım. Servislerin birbiriyle uyumlu çalışmasını sağlamak için RabbitMQ ile asenkron iletişim kurdum, performansı artırmak amacıyla Redis önbellekleme kullandım. PostgreSQL üzerinde tasarladığım veritabanını Hibernate ve JPA ile yönettim; uygulamayı Docker ile container haline getirip Git ile versiyonladım. API’leri Swagger ile dokümante ederken, JUnit ve Mockito ile test ederek sistemi güvenilir hale getirdim.",
+      "Java ve Spring Boot ile ölçeklenebilir  backend uygulamaları geliştirdim. Güvenli ve performanslı RESTful API'ler tasarladım. RabbitMQ ile asenkron iletişim kurarak mikroservis mimarisi oluşturdum. Performans optimizasyonu için Redis önbellekleme sistemlerini entegre ettim. PostgreSQL veritabanını Hibernate ve JPA ile yöneterek veri katmanını optimize ettim. Docker ile containerization ve Git ile versiyon kontrolü sağladım. Swagger ile API dokümantasyonu oluşturdum ve JUnit, Mockito ile test coverage'ı artırarak sistem güvenilirliğini sağladım.",
     startDate: "03/2025",
     endDate: "Present",
   },

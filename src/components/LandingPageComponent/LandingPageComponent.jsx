@@ -1,6 +1,5 @@
 import React from "react";
 import AccountList from "../AccountList/AccountList";
-import SeeMoreComponent from "../SeeMoreComponent/SeeMoreComponent";
 import ScrollUpButton from "../ScrollUpButton/ScrollUpButton";
 import WelcomeText from "../WelcomeText/WelcomeText";
 import bgImage from "../../assets/images/software-engineering.jpg";
@@ -18,7 +17,6 @@ const LandingPageComponent = () => {
     >
       <WelcomeText />
       <AccountList />
-      <SeeMoreComponent />
       <ScrollUpButton />
     </div>
   );

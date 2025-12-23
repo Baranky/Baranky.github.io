@@ -1,7 +1,7 @@
 export const articles = [
   {
     title: "Event-Driven Architecture ve Apache Kafka ile Ölçeklenebilirlik",
-    description: "Senkron sistemlerin darboğazlarını nasıl kırarsınız? EDA ile asenkron iletişimi öğrenin ve Apache Kafka ile ölçeklenebilir, esnek mikroservis mimarileri tasarlayın. Gerçek dünya senaryolarıyla uygulayın.",
+    description: "Senkron sistemlerin darboğazlarını nasıl kırarsınız? Event-Driven Architecture ile asenkron iletişimi öğrenin ve Apache Kafka ile ölçeklenebilir, esnek mikroservis mimarileri tasarlayın. Gerçek dünya senaryolarıyla uygulayın.",
     link: "https://medium.com/@BaranKaya1/senkron-zincirleri-k%C4%B1rmak-event-driven-architecture-ve-apache-kafka-ile-%C3%B6l%C3%A7eklenebilirlik-e9d43bf2fb1a",
     date: "2025-12-22",
   },
