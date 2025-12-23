@@ -1,6 +1,15 @@
 export const experiences = [
  
   {
+    title: "Backend Developer",
+    company: "Quantumix",
+    location: "Turkey",
+    jobDescription:
+      " Java ve Spring Boot ile geliştirdiğim backend uygulamasında, ölçeklenebilir ve sağlam bir yapı kurmaya odaklandım. Güvenli ve hızlı RESTful API’ler tasarladım. Servislerin birbiriyle uyumlu çalışmasını sağlamak için RabbitMQ ile asenkron iletişim kurdum, performansı artırmak amacıyla Redis önbellekleme kullandım. PostgreSQL üzerinde tasarladığım veritabanını Hibernate ve JPA ile yönettim; uygulamayı Docker ile container haline getirip Git ile versiyonladım. API’leri Swagger ile dokümante ederken, JUnit ve Mockito ile test ederek sistemi güvenilir hale getirdim.",
+    startDate: "03/2025",
+    endDate: "Present",
+  },
+  {
     title: "-Intern Software Engineer",
     company: "Jforce Bilişim Teknoloji",
     location: "Turkey",

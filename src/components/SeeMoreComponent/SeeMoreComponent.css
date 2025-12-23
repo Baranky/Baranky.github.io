@@ -1,6 +1,6 @@
 .see-more__root {
   position: absolute;
-  bottom: 8vh;
+  bottom: 4vh;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -61,7 +61,7 @@
 @media (max-width: 850px) {
   .see-more__root {
     position: absolute;
-    bottom: 6vh;
+    bottom: 3vh;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -76,7 +76,7 @@
 
 @media (max-width: 480px) {
   .see-more__root {
-    bottom: 3vh;
+    bottom: 1vh;
   }
   .see-more__icon {
     width: 40px;

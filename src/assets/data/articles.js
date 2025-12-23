@@ -1,5 +1,23 @@
 export const articles = [
   {
+    title: "Senkron Zincirleri Kırmak: Event-Driven Architecture ve Apache Kafka ile Ölçeklenebilirlik",
+    description: "Senkron sistemlerin darboğazlarını nasıl kırarsınız? Event-Driven Architecture ile asenkron iletişimi öğrenin ve Apache Kafka ile ölçeklenebilir, esnek mikroservis mimarileri tasarlayın. Gerçek dünya senaryolarıyla uygulayın.",
+    link: "https://medium.com/@BaranKaya1/senkron-zincirleri-k%C4%B1rmak-event-driven-architecture-ve-apache-kafka-ile-%C3%B6l%C3%A7eklenebilirlik-e9d43bf2fb1a",
+    date: "2025-12-22",
+  },
+  {
+    title: "Mikroservislerin Sigortası: Spring Boot ve Resilience4j ile "Yıkılmaz" Sistemler İnşa Etmek",
+    description: "Bir servis çökerse tüm sistem çökmesin! Resilience4j ile Circuit Breaker, Retry, Rate Limiter ve Bulkhead pattern'lerini Spring Boot'ta nasıl uygularsınız? Hata toleranslı sistemler tasarlayın.",
+    link: "https://medium.com/@BaranKaya1/mikroservislerin-sigortas%C4%B1-spring-boot-ve-resilience4j-ile-y%C4%B1k%C4%B1lmaz-sistemler-i%CC%87n%C5%9Fa-etmek-a7c4b0274795",
+    date: "2025-12-19",
+  },
+  {
+    title: "Mikroservisler Arası Dedikodu: OpenFeign ile "Mış Gibi" Yapmak",
+    description: "Mikroservisler birbirleriyle nasıl konuşur? OpenFeign ile REST API çağrılarını interface'ler tanımlayarak yapın. Feign Client kullanımı, error handling ve load balancing ile inter-servis iletişimini profesyonelce yönetin.",
+    link: "https://medium.com/@BaranKaya1/mikroservisler-aras%C4%B1-dedikodu-openfeign-ile-m%C4%B1%C5%9F-gibi-yapmak-b%C3%B6l%C3%BCm-3-97613b021218",
+    date: "2025-12-17",
+  },
+  {
     title: "Pizza Yapmaktan Sipariş Vermeye: Spring Framework vs. Spring Boot",
     description: "Spring Framework ve Spring Boot arasındaki temel farkları eğlenceli bir metaforla açıklıyorum. Hangi projede hangisini kullanacağınızı öğrenin ve pratik örneklerle uygulayın.",
     link: "https://medium.com/@baranky2104/pizza-yapmaktan-sipari%C5%9F-vermeye-spring-framework-vs-spring-boot-51df45d35146?postPublishedType=initial",
