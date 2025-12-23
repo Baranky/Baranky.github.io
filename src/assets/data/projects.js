@@ -1,5 +1,12 @@
 export const projects = [
   {
+    projectName: "Scalable Event Ticketing Platform",
+    projectDescription:
+      "Yüksek trafikli etkinlikler için ölçeklenebilir bilet satış platformu. EDA, mikroservis mimarisi ve Spring Boot teknolojileri ile geliştirilmiş. Yüksek eşzamanlı kullanıcı yükünü karşılayacak şekilde tasarlanmış performanslı sistem.",
+    projectLink: "https://github.com/Baranky/Scalable-Event-Ticketing-Platform",
+    projectImage: "/image.png",
+  },
+  {
     projectName: "Food Delivery Microservice",
     projectDescription:
       "Modern mikroservis mimarisi kullanılarak geliştirilmiş yemek sipariş sistemi. Servisler arası iletişim, Eureka Server ile Service Discovery ve API Gateway yapılarını kapsar.",

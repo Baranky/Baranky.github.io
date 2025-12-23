@@ -9,7 +9,7 @@ const CoverLetterComponent = () => {
       Java Developer | software Developer
       </span>
       <span className="cover-letter-component__content">
-        Java ve Spring Boot kullanarak dağıtık sistemler geliştirme, RabbitMQ, Redis ve Docker gibi teknolojilerle ölçeklenebilir sistemler kurma ve mikroservis entegrasyonu ile CI/CD süreçlerinde uzmanlık kazanma konusunda deneyimli bir Yazılım Geliştiricisiyim.  
+        Java ve Spring Boot kullanarak dağıtık sistemler geliştirme, Kafka, RabbitMQ, Redis ve Docker gibi teknolojilerle ölçeklenebilir sistemler kurma ve mikroservis entegrasyonu ile CI/CD süreçlerinde uzmanlık kazanma konusunda kendimi geliştirmek isteyen bir Yazılım Geliştiricisiyim.  
       </span> 
      </div>
   );
