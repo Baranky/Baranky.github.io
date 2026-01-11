@@ -1,5 +1,11 @@
 export const articles = [
   {
+    title: "Mikroservislerde Rollback Yoktur, Telafi Vardır: Saga Pattern ve Dağıtık Transaction Yönetimi",
+    description: "Dağıtık sistemlerde transaction yönetimi nasıl olur? SAGA Pattern ile rollback yerine compensation kullanarak mikroservisler arası tutarlılığı nasıl sağlarsınız? Choreography ve Orchestration yaklaşımlarını öğrenin.",
+    link: "https://medium.com/@BaranKaya1/mikroservislerde-rollback-yoktur-telafi-vard%C4%B1r-saga-pattern-ve-da%C4%9F%C4%B1t%C4%B1k-transaction-y%C3%B6netimi-60d17d23f679",
+    date: "2026-01-03",
+  },
+  {
     title: "Event-Driven Architecture ve Apache Kafka ile Ölçeklenebilirlik",
     description: "Senkron sistemlerin darboğazlarını nasıl kırarsınız? Event-Driven Architecture ile asenkron iletişimi öğrenin ve Apache Kafka ile ölçeklenebilir, esnek mikroservis mimarileri tasarlayın. Gerçek dünya senaryolarıyla uygulayın.",
     link: "https://medium.com/@BaranKaya1/senkron-zincirleri-k%C4%B1rmak-event-driven-architecture-ve-apache-kafka-ile-%C3%B6l%C3%A7eklenebilirlik-e9d43bf2fb1a",
