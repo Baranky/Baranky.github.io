@@ -9,7 +9,7 @@ const ResumeInfo = () => {
     { name: "Address", value: "İstanbul / Turkey" },
     { name: "Date of Birth", value: "2002" },
     { name: "Languages", value: "Turkish(Native)\nEnglish(Intermediate)" },
-    { name: "References", value: "Hakan Anlamaz\nJforce Team Leader\nhakan.anlamaz@jforce.com \n+90 543 734 1299" },
+    { name: "References", value: "Hakan Anlamaz\nJforce Team Leader\n \nİletişim bilgileri istek üzerine paylaşılacaktır." },
   ];
 
   return (
