@@ -7,7 +7,7 @@ export const experiences = [
     jobDescription:
       "Java ve Spring Boot ile ölçeklenebilir  backend uygulamaları geliştirdim. Güvenli ve performanslı RESTful API'ler tasarladım. RabbitMQ ile asenkron iletişim kurarak mikroservis mimarisi oluşturdum. Performans optimizasyonu için Redis önbellekleme sistemlerini entegre ettim. PostgreSQL veritabanını Hibernate ve JPA ile yöneterek veri katmanını optimize ettim. Docker ile containerization ve Git ile versiyon kontrolü sağladım. Swagger ile API dokümantasyonu oluşturdum ve JUnit, Mockito ile test coverage'ı artırarak sistem güvenilirliğini sağladım.",
     startDate: "03/2025",
-    endDate: "Present",
+    endDate: "01/2026",
   },
   {
     title: "-Intern Software Engineer",
