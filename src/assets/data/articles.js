@@ -1,5 +1,11 @@
 export const articles = [
   {
+    title: "Veri Tutarlılığının Gizli Kahramanı: “Outbox Pattern”",
+    description: "Mikroservisler Kafka'ya mesaj yazmadan önce veri kaybı yaşamadan nasıl tutarlılık sağlar? Outbox Pattern ile veritabanı ve mesaj kuyruğu arasındaki eventual consistency problemini çözmeyi, outbox tablosu, relay süreçleri ve pratik senaryolarla öğrenin.",
+    link: "https://medium.com/@BaranKaya1/saga-pattern-yetmez-veri-tutarl%C4%B1l%C4%B1%C4%9F%C4%B1n%C4%B1n-gizli-kahraman%C4%B1-outbox-pattern-abd1db5602bf",
+    date: "2026-01-25",
+  },
+  {
     title: "Mikroservislerde Rollback Yoktur, Telafi Vardır: Saga Pattern ve Dağıtık Transaction Yönetimi",
     description: "Dağıtık sistemlerde transaction yönetimi nasıl olur? SAGA Pattern ile rollback yerine compensation kullanarak mikroservisler arası tutarlılığı nasıl sağlarsınız? Choreography ve Orchestration yaklaşımlarını öğrenin.",
     link: "https://medium.com/@BaranKaya1/mikroservislerde-rollback-yoktur-telafi-vard%C4%B1r-saga-pattern-ve-da%C4%9F%C4%B1t%C4%B1k-transaction-y%C3%B6netimi-60d17d23f679",
